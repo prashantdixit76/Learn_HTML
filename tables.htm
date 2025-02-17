@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+</head>
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: center;
+        color: rgb(217, 27, 27);
+    }
+    td, th {
+        border: 1px solid black;
+        padding: 10px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #e8e1e1;
+    }
+</style>
+<body>
+
+    <!-- tables tags -->
+    <table>
+
+    <!-- column and row background-color change technique -->
+        <colgroup>
+            <col span="2" style="background-color: rgb(94, 94, 204);" />
+        </colgroup>
+        
+        <tr>
+            <th>country</th>
+            <th>country code</th>
+            <th>email</th>
+            <th>ph.no</th>
+        </tr>
+
+        <tr>
+            <td>india</td>
+            <td>in</td>
+            <td>india@google.com</td>
+            <td>09991111</td>
+        </tr>
+        <tr>
+            <td>United state of America</td>
+            <td>USA</td>
+            <td>usa@google.com</td>
+            <td>04361111</td>
+        </tr>
+        <tr>
+            <td>China</td>
+            <td>CH</td>
+            <td>china@google.com</td>
+            <td>046661111</td>
+        </tr>
+        
+
+    </table>
+
+
+    <!-- colspane and rowspan  -->
+<br>
+    <table>
+        <tr>
+            <th colspan="2">india</th>
+            <th rowspan="2">USA</th>
+            <th>Chian</th>
+        </tr>
+
+        <td>1</td>
+        <td>2</td>
+        <td>3</td>
+    </table>
+
+
+    <!-- tfoot tag -->
+    <table>
+        <thead>
+          <tr>
+            <th>Month</th>
+            <th>Savings</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>January</td>
+            <td>$100</td>
+          </tr>
+          <tr>
+            <td>February</td>
+            <td>$80</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td>Sum</td>
+            <td>$180</td>
+          </tr>
+        </tfoot>
+      </table>
+    
+</body>
+</html>

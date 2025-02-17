@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        body {
+            background-color: antiquewhite;
+            color: rgb(15, 16, 17);
+        }
+    </style>
+</head>
+<body>
+    <h1>Forms in HTML</h1>
+
+    <!-- forms some actions and methods  -->
+    <form action="url" method="get" accept-charset="UTF-8" autocomplete="off" enctype="" >
+
+<!-- form basic syntax -->
+<label for="fname">first name </label> <br>
+ <input type="text"  placeholder="kartic sharma" name="" id="fname">
+
+ <!-- input reset password , week , email  button  -->
+<input type="reset" value="rest"><br>
+<input type="password" name="" id=""><br>
+<input type="week" name="" id=""><br>
+<input type="email" name="email" id="">
+<br>
+<!-- multipale option  -->
+<select name="editors" id="" multiple>
+    <option value="vscode">VSCODE</option>
+    <option value="subline ">subline</option>
+</select><br>
+
+
+<!-- multiple option by list  -->
+<input list="editors" name="editors">
+<datalist id="editors">
+    <option value="vscode">VSCODE</option>
+    <option value="subline ">subline</option>
+</datalist><br>
+
+<!-- hideen field  -->
+<input type="hidden" name="" id=""><br>
+
+<!-- range attribute  -->
+<input type="range" name="volume" id="volume" min="0" max="11">
+<label for="volume">volume</label><br>
+
+        <!-- button tag  -->
+<button type="submit"> Submit</button>
+
+
+
+
+</form>
+</body>
+</html>

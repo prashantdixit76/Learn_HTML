@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>images</title>
+</head>
+
+<body>
+    <!-- image tag -->
+<img src="https://img.freepik.com/free-photo/natures-beauty-reflected-tranquil-mountain-waters-generative-ai_188544-7867.jpg?t=st=1739635795~exp=1739639395~hmac=27bbed3092eece29914170a79f2fa25989c7bdaa27192a09a8863d57877c6231&w=740" width="350" alt="no image">
+
+<img src="c:\Users\91766\Desktop\kartic.jpg" width="350" alt="no image">
+
+<!-- picture tag -->
+<picture>
+    <source media="c:\Users\91766\Desktop\w1.webp" width="350" srcset="">
+    <img src="c:\Users\91766\Desktop\kartic.jpg"width="350" alt="">
+</picture>
+
+
+<!-- an image map generator -->
+<img src="kartic.jpg" usemap="#image-map">
+
+<map name="image-map">
+    <area onelick="one()" alt="" title="" href="" coords="410,263,832,799" shape="rect">
+    <area onelick="two()" target="" alt="" title="" href="" coords="305,1021,970,1021,659,1279,257,1297,1078,1330" shape="0">
+</map>
+
+<script>
+    function one(){
+        alert("you click on one ")
+    }
+    function two(){
+        alert("you click on two ")
+    }
+</script>
+
+
+</body>
+</html>
